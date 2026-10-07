@@ -10,7 +10,9 @@ from mcp.server.fastmcp import FastMCP
 PAPER_DIR = "papers"
 
 # Initialize FastMCP server
-mcp = FastMCP("research")
+# Lcal: mcp = FastMCP("research")
+# Initialize FastMCP server
+mcp = FastMCP("research", port=8001)
 
 @mcp.tool()
 def search_papers(topic: str, max_results: int = 5) -> List[str]:
@@ -103,4 +105,5 @@ def extract_info(paper_id: str) -> str:
 
 if __name__ == "__main__":
     # Initialize and run the server
-    mcp.run(transport='stdio')
+    # LOCAL: mcp.run(transport='stdio')
+    mcp.run(transport='sse')
