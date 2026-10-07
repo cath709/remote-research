@@ -1,0 +1,91 @@
+{
+  "2501.00602v1": {
+    "title": "STORM: Spatio-Temporal Reconstruction Model for Large-Scale Outdoor Scenes",
+    "authors": [
+      "Jiawei Yang",
+      "Jiahui Huang",
+      "Yuxiao Chen",
+      "Yan Wang",
+      "Boyi Li",
+      "Yurong You",
+      "Apoorva Sharma",
+      "Maximilian Igl",
+      "Peter Karkus",
+      "Danfei Xu",
+      "Boris Ivanovic",
+      "Yue Wang",
+      "Marco Pavone"
+    ],
+    "summary": "We present STORM, a spatio-temporal reconstruction model designed for reconstructing dynamic outdoor scenes from sparse observations. Existing dynamic reconstruction methods often rely on per-scene optimization, dense observations across space and time, and strong motion supervision, resulting in lengthy optimization times, limited generalization to novel views or scenes, and degenerated quality caused by noisy pseudo-labels for dynamics. To address these challenges, STORM leverages a data-driven Transformer architecture that directly infers dynamic 3D scene representations--parameterized by 3D Gaussians and their velocities--in a single forward pass. Our key design is to aggregate 3D Gaussians from all frames using self-supervised scene flows, transforming them to the target timestep to enable complete (i.e., \"amodal\") reconstructions from arbitrary viewpoints at any moment in time. As an emergent property, STORM automatically captures dynamic instances and generates high-quality masks using only reconstruction losses. Extensive experiments on public datasets show that STORM achieves precise dynamic scene reconstruction, surpassing state-of-the-art per-scene optimization methods (+4.3 to 6.6 PSNR) and existing feed-forward approaches (+2.1 to 4.7 PSNR) in dynamic regions. STORM reconstructs large-scale outdoor scenes in 200ms, supports real-time rendering, and outperforms competitors in scene flow estimation, improving 3D EPE by 0.422m and Acc5 by 28.02%. Beyond reconstruction, we showcase four additional applications of our model, illustrating the potential of self-supervised learning for broader dynamic scene understanding.",
+    "pdf_url": "https://arxiv.org/pdf/2501.00602v1",
+    "published": "2024-12-31"
+  },
+  "0809.3568v1": {
+    "title": "Infinitesimal rigidity of a compact hyperbolic 4-orbifold with totally geodesic boundary",
+    "authors": [
+      "Tarik Aougab",
+      "Peter A. Storm"
+    ],
+    "summary": "  Kerckhoff and Storm conjectured that compact hyperbolic n-orbifolds with totally geodesic boundary are infinitesimally rigid when n>3. This paper verifies this conjecture for a specific example based on the 4-dimensional hyperbolic 120-cell.",
+    "pdf_url": "https://arxiv.org/pdf/0809.3568v1",
+    "published": "2008-09-21"
+  },
+  "2511.16384v1": {
+    "title": "Editorial: Impacts of the Extreme Gannon Geomagnetic Storm of May 2024 throughout the Magnetosphere-Ionosphere-Thermosphere System",
+    "authors": [
+      "Denny M. Oliveira",
+      "Mirko Piersanti",
+      "Maria-Theresia Walach",
+      "Livia R. Alves",
+      "W. Kent Tobiska",
+      "Xochitl Blanco-Cano",
+      "Katariina Nykyri"
+    ],
+    "summary": "Editorial for the Research Topic collection Impacts of the Extreme Gannon Geomagnetic Storm of May 2024 throughout the Magnetosphere-Ionosphere-Thermosphere System, published in Frontiers in Astronomy and Space Science.",
+    "pdf_url": "https://arxiv.org/pdf/2511.16384v1",
+    "published": "2025-11-20"
+  },
+  "1402.0927v1": {
+    "title": "Anomalous dynamics of the extremely compressed magnetosphere during 21 January 2005 magnetic storm",
+    "authors": [
+      "A. V. Dmitriev",
+      "A. V. Suvorova",
+      "J. -K. Chao",
+      "C. B. Wang",
+      "L. Rastaetter",
+      "M. I. Panasyuk",
+      "L. L. Lazutin",
+      "A. S. Kovtyukh",
+      "I. S. Veselovsky",
+      "I. N. Myagkova"
+    ],
+    "summary": "Dynamics of the dayside magnetosphere and proton radiation belt was analyzed during unusual magnetic storm on 21 January 2005. We have found that during the storm from 1712 to 2400 UT, the subsolar magnetopause was continuously located inside geosynchronous orbit due to strong compression. The compression was found to be extremely strong from 1846 to 2035 UT when the dense plasma of fast erupting filament produced the solar wind dynamic pressure Pd peaked up to >100 nPa and, in the first time, the upstream solar wind was observed at geosynchronous orbit during almost 2 hours. Under the extreme compression, the outer magnetosphere at L > 5 was pushed inward and the outer radiation belt particles with energies of several tens of keV moved earthward, became adiabatically accelerated and accumulated in the inner magnetosphere at L < 4 that produced the intensified ring current with an exceptionally long lifetime. The observations were compared with predictions of various empirical and first principles models. All the models failed to predict the magnetospheric dynamics under the extreme compression when the minimal magnetopause distance was estimated to be ~3 Re. The inconsistencies between the model predictions and observations might result from distortions of plasma measurements by extreme heliospheric conditions consisting in very fast solar wind streams (~1000 km/s) and intense fluxes of solar energetic particles. We speculated that anomalous dynamics of the magnetosphere could be well described by the models if the He abundance in the solar wind was assumed to be >20%, which is well appropriate for erupting filaments and which is in agreement with the upper 27% threshold for the He/H ratio obtained from Cluster measurements.",
+    "pdf_url": "https://arxiv.org/pdf/1402.0927v1",
+    "published": "2014-02-05"
+  },
+  "1809.04073v1": {
+    "title": "The effect of metallicity on Cepheid Period-Luminosity relations from a Baade-Wesselink analysis of Cepheids in the Milky Way and Magellanic Clouds",
+    "authors": [
+      "W. Gieren",
+      "J. Storm",
+      "P. Konorski",
+      "M. G\u00f3rski",
+      "B. Pilecki",
+      "I. Thompson",
+      "G. Pietrzy\u0144ski",
+      "D. Graczyk",
+      "T. G. Barnes",
+      "P. Fouqu\u00e9",
+      "N. Nardetto",
+      "A. Gallenne",
+      "P. Karczmarek",
+      "K. Suchomska",
+      "P. Wielg\u00f3rski",
+      "M. Taormina",
+      "B. Zgirski"
+    ],
+    "summary": "The extragalactic distance scale builds on the Cepheid period-luminosity (PL) relation. In this paper, we want to carry out a strictly differential comparison of the absolute PL relations obeyed by classical Cepheids in the Milky Way (MW), LMC and SMC galaxies. Taking advantage of the substantial metallicity difference among the Cepheid populations in these three galaxies, we want to establish a possible systematic trend of the PL relation absolute zero point as a function of metallicity, and determine the size of such an effect in optical and near-infrared photometric bands. We are using the IRSB Baade-Wesselink type method as calibrated by Storm et al. to determine individual distances to the Cepheids in our samples in MW, LMC and SMC. For our analysis, we use a greatly enhanced sample of Cepheids in the SMC (31 stars) as compared to the small sample (5 stars) available in our previous work. We use the distances to determine absolute Cepheid PL relations in optical and near-infrared bands in each of the three galaxies.} {Our distance analysis of 31 SMC Cepheids with periods from 4-69 days yields tight PL relations in all studied bands, with slopes consistent with the corresponding LMC and MW relations. Adopting the very accurately determined LMC slopes for the optical and near-infrared bands, we determine the zero point offsets between the corresponding absolute PL relations in the 3 galaxies. We find that in all bands the metal-poor SMC Cepheids are intrinsically fainter than their more metal-rich counterparts in the LMC and MW. In the $K$ band the metallicity effect is $-0.23\\pm0.06$~mag/dex while in the $V,(V-I)$ Wesenheit index it is slightly stronger, $-0.34\\pm0.06$~mag/dex. We find some evidence that the PL relation zero point-metallicity relation might be nonlinear, becoming steeper for lower metallicities.",
+    "pdf_url": "https://arxiv.org/pdf/1809.04073v1",
+    "published": "2018-09-11"
+  }
+}
